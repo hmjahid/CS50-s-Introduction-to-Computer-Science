@@ -3,9 +3,12 @@
 
 int main(void) {
     
-    int x = get_int("Input value of X:");
-    int y = get_int("Input value of Y:");
+    int x = get_int("Input value of x:");
+    int y = get_int("Input value of y:");
 
-    printf("%i\n", x + y);
+    printf("%.5f\n", (float) x / y);
+
+    // printf("%i\n", x / y);
+    // printf("%i\n", x + y);
 
 }
