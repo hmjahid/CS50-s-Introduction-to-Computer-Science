@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(int argc, string argv[] ) {
-    if (argc != 2) {
+int main(int argc, string argv[] ) 
+{
+    if (argc != 2) 
+    {
         printf("Missing cli argument\n");
         return 1;
     }

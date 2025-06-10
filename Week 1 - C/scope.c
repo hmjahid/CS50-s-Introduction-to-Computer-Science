@@ -9,7 +9,8 @@ void meow (int n);
 int main (void) 
 {
     int number;
-    do {
+    do 
+    {
          number = get_int("Number: ");
     }
     while ( number < 1);
@@ -21,8 +22,9 @@ int main (void)
 
 void meow (int n) 
 {
-    for ( int i = 0; i < n; i++) {
-            printf("MEOW\n");
-        }
+    for ( int i = 0; i < n; i++) 
+    {
+        printf("MEOW\n");
+    }
     
 }

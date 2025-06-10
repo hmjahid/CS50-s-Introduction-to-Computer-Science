@@ -21,7 +21,8 @@ int main (void)
 int positive (void) 
 {
     int number;
-    do {
+    do 
+    {
          number = get_int("Number: ");
     }
     while ( number < 1);
@@ -32,8 +33,9 @@ int positive (void)
 
 void meow (int n) 
 {
-    for ( int i = 0; i < n; i++) {
-            printf("MEOW\n");
-        }
+    for ( int i = 0; i < n; i++) 
+    {
+        printf("MEOW\n");
+    }
     
 }

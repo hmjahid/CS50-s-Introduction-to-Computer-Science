@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main (void) {
+int main (void) 
+{
     string name = get_string("What is your name\n");
 
     int age = get_int("What is your age?\n");
